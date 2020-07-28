@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transform - skew</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            /*(x, y)表示对应轴倾斜的角度*/
+            transform: skew(20deg, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+</body>
+</html>

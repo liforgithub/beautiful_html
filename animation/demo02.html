@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>垂直居中方法</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /*向右向下移动100px*/
+            /*transform: translate(100px, 100px);*/
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+</body>
+</html>
