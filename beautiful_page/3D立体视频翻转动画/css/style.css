@@ -25,7 +25,7 @@ html, body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -100px 0 0 -100px;
+    transform: translate(-50%, -50%);
     transform-style: preserve-3d;
 }
 .bg {
@@ -39,7 +39,7 @@ html, body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -50px 0 0 -50px;
+    transform: translate(-50%, -50%);
     transform-style: preserve-3d;
     transform: rotateX(-10deg) rotateY(45deg);
     animation: move 4s linear infinite;
